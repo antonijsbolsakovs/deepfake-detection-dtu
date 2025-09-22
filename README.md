@@ -29,13 +29,15 @@ Additional evaluation included:
 ---
 
 ## 📂 Repository Structure
-├── src/                 # Source code (training, evaluation, preprocessing)
-├── results/             # Model checkpoints, metrics, Grad-CAM visualizations
-├── Deepfake_Detection_BSc_Thesis.pdf
-├── requirements.txt     # Dependencies
+```plaintext
+├── src/                  # Source code (training, evaluation, preprocessing)
+├── results/              # Model checkpoints, metrics, Grad-CAM visualizations
+├── Deepfake_Detection_BSc_Thesis.pdf  
+├── requirements.txt      # Dependencies
 ├── LICENSE
 ├── .gitignore
 └── README.md
+````` 
 
 ---
 
