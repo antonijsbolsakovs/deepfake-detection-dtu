@@ -47,14 +47,6 @@ Additional evaluation included:
    ```bash
    git clone https://github.com/username/deepfake-detection.git
    cd deepfake-detection
----
-
-## 🚀 Installation & Usage
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/username/deepfake-detection.git
-   cd deepfake-detection
    ````` 
 
 2.	Install dependencies:
