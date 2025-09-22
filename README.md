@@ -14,11 +14,6 @@ The dataset was derived from **FaceForensics++**, extracting and balancing real 
 - **Train:** 8,000 real + 8,000 fake  
 - **Test:** 2,000 real + 2,000 fake  
 
-### Key Results
-- Custom CNN → **79% accuracy**  
-- EfficientNet-B0 → **96.6% accuracy**  
-- XceptionNet → **98.1% accuracy (best model)**  
-
 Additional evaluation included:
 - Accuracy, precision, recall, F1-score  
 - Confusion matrices  
@@ -71,7 +66,7 @@ Additional evaluation included:
 | EfficientNet-B0 | 96.6%            | 96.6%         |
 | XceptionNet  | 98.1%               | 98.0%         |
 
-Grad-CAM examples show that both XceptionNet and EfficientNet focus on subtle facial regions when detecting manipulations.
+All three models performed well in detecting deepfakes. The Custom CNN achieved solid performance despite being lightweight and trained from scratch, proving the feasibility of simpler architectures. Grad-CAM visualizations show that while each model identified relevant facial regions, XceptionNet provided the most precise and consistent focus on manipulations.
 
 ---
 
