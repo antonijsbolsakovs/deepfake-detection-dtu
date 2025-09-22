@@ -57,6 +57,15 @@ Additional evaluation included:
     ```bash
     python src/evaluate_custom_cnn.
     `````
+## 💾 Pretrained Models
+
+The best-performing models obtained during training have been saved as PyTorch checkpoint files and are available on Google Drive:
+
+- [Custom CNN](https://drive.google.com/file/d/1N2XTW8PUU7YeckAy-sQY5kC7TbjO4Y47/view)  
+- [EfficientNet-B0](https://drive.google.com/file/d/1JnpQdoulryDO3rxqXbZX-vDOER2SrZqa/view)  
+- [XceptionNet](https://drive.google.com/file/d/13Ccev-9RJlDqw2eTJcvLuoieCMDijp-v/view)  
+
+These files contain all the learned model parameters and can be loaded using the evaluation scripts in `src/` to reproduce the results presented in the thesis report.
     
 ## 📊 Results (Summary)
 
