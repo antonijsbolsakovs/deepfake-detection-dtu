@@ -3,7 +3,7 @@
 Bachelor thesis project (BSc, DTU) on detecting deepfake images using deep learning.  
 The project focuses on classifying static facial images as **real** or **fake** with AI models.
 
-## 📄 Project Overview
+## Project Overview
 Deepfake technology is rapidly evolving, making fake images harder to detect.  
 This project explores several approaches for image-based detection:
 - A **Custom CNN** built from scratch as a baseline.
@@ -19,11 +19,11 @@ Additional evaluation included:
 - Confusion matrices  
 - Grad-CAM visualizations for interpretability  
 
-📑 Full thesis report: [`Deepfake_Detection_BSc_Thesis.pdf`](./Deepfake_Detection_BSc_Thesis.pdf)
+Full thesis report: [`Deepfake_Detection_BSc_Thesis.pdf`](./Deepfake_Detection_BSc_Thesis.pdf)
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 ```plaintext
 ├── src/                  # Source code (training, evaluation, preprocessing)
 ├── results/              # Model checkpoints, metrics, Grad-CAM visualizations
@@ -36,7 +36,7 @@ Additional evaluation included:
 
 ---
 
-## 🚀 Installation & Usage
+## Installation & Usage
 
 1. Clone the repository:
    ```bash
@@ -57,7 +57,7 @@ Additional evaluation included:
     ```bash
     python src/evaluate_custom_cnn.
     `````
-## 💾 Pretrained Models
+## Pretrained Models
 
 The best-performing models obtained during training have been saved as PyTorch checkpoint files and are available on Google Drive:
 
@@ -67,7 +67,7 @@ The best-performing models obtained during training have been saved as PyTorch c
 
 These files contain all the learned model parameters and can be loaded using the evaluation scripts in `src/` to reproduce the results presented in the thesis report.
     
-## 📊 Results (Summary)
+## Results (Summary)
 
 | Model        | Validation Accuracy | Test Accuracy |
 |--------------|----------------------|---------------|
@@ -79,14 +79,14 @@ All three models performed well in detecting deepfakes. The Custom CNN achieved 
 
 ---
 
-## 🔮 Future Work
+## Future Work
 - Extend detection to **video-based** deepfakes.  
 - Train **deeper custom CNNs** with longer training schedules.  
 - Use larger and more diverse datasets (e.g., **DFDC**, **Celeb-DF**).  
 
 ---
 
-## 📜 License
+## License
 This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.  
 
 ---
